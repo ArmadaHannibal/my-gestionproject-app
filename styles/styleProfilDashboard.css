@@ -1,0 +1,36 @@
+.contentProfilUser {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 22rem;
+    border-radius: 11px;
+}
+
+.contentProfilUserDetail {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 35rem;
+    height: 23rem;
+    border-radius: 11px;
+}
+
+.coverUpdateUser {
+    width: 35rem;
+    height: 23rem;
+    border-radius: 11px;
+}
+
+[data-radix-popper-content-wrapper] {
+    /* Vos styles ici */
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: 600;
+    border-radius: 8px;
+    /* Exemple de style */
+}
+
+[data-radix-popper-content-wrapper] div > * {
+    cursor: pointer;
+}
+
+[data-radix-popper-content-wrapper] div > *[data-radix-collection-item]:hover {
+    background: #000;
+    color: #ffffff;
+}
